@@ -148,7 +148,7 @@ while True:
                                                             'machine_code':machine_code
                                                     })
 
-            time.sleep(5)
+            time.sleep(600)
     except:
         pass
    
