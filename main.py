@@ -118,7 +118,7 @@ while True:
                                                     })
 
                 
-                time.sleep(5)
+                time.sleep(300)
             else:
                 print("Logger Offline")
                 resp = requests.post(url_upload_local, data={'ph':ph_data,
