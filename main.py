@@ -4,6 +4,7 @@ from urllib.request import urlopen
 import json
 import requests
 from path_url import Path_URL
+from restart import *
 
 path_file = Path_URL
 path_url = path_file.path_local+"api/Rest_api/get_data_setting"
@@ -149,7 +150,7 @@ while True:
 
             time.sleep(600)
     except:
-        pass
+        restart_programs()
    
 
    
